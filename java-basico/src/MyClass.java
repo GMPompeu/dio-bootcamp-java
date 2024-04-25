@@ -1,5 +1,10 @@
 public class MyClass {
     public static void main(String[] args) {
-        System.out.println("Olá Mundo");
+       
+        String myName = "Guilherme";
+
+        int yFab = 2022;
+
+        boolean verdadeira = true;
     }
 }
