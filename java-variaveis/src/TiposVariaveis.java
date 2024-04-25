@@ -8,5 +8,7 @@ public class TiposVariaveis {
         float pi = 3.14F; // F no final sempre
         double salario = 2500.33;
 
+        final double VALOR_DE_PI = 3.14;
+        
     }
 }
