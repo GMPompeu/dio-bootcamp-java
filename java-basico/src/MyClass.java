@@ -6,5 +6,7 @@ public class MyClass {
         int yFab = 2022;
 
         boolean verdadeira = true;
+
+        yFab = 2018;
     }
 }
