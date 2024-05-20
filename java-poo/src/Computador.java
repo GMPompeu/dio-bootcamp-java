@@ -1,17 +1,18 @@
 public class Computador {
     public static void main(String[] args) {
-		
-		MSNMessenger msn = new MSNMessenger();
-		msn.enviarMensagem();
-		msn.receberMensagem();
-		
-		FacebookMensseger fbm = new FacebookMensseger();
-		fbm.enviarMensagem();
-		fbm.receberMensagem();
-		
-		Mensseger tlg = new Mensseger();
-		tlg.enviarMensagem();
-		tlg.receberMensagem();
-		
-	}
+
+        ServicoPai smi = null;
+
+        String appEscolhido = "fbm";
+
+        if (appEscolhido.equals("msn")) {
+            smi = new MSNMessenger();
+        } else if (appEscolhido.equals("fbm"))
+            smi = new FacebookMensseger();
+        else if (appEscolhido.equals("tlg"))
+            smi = new Mensseger();
+
+        smi.enviarMensagem();
+        smi.receberMensagem();
+    }
 }
