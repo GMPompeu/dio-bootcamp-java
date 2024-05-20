@@ -1,3 +1,3 @@
-public class FacebookMensseger {
+public class FacebookMensseger extends ServicoPai {
     
 }
