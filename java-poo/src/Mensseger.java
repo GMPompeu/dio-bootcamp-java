@@ -6,4 +6,8 @@ public class Mensseger extends ServicoPai{
 	public void receberMensagem() {
 		System.out.println("Recebendo mensagem pelo Telegram");
 	}
+   
+    public void salvarHistoricoMensagem() {
+        throw new UnsupportedOperationException("Unimplemented method 'salvarHistoricoMensagem'");
+    }
 }

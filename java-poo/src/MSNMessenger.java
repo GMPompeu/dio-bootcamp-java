@@ -7,4 +7,8 @@ public class MSNMessenger extends ServicoPai {
 		System.out.println("Recebendo mensagem pelo MSN Messenger");
 	}
 	
+	public void salvarHistoricoMensagem() {
+		throw new UnsupportedOperationException("Unimplemented method 'salvarHistoricoMensagem'");
+	}
+	
 }
